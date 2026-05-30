@@ -1,0 +1,30 @@
+# ── Python ──────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# ── Virtual environment ────────────────────────────────────
+.venv/
+venv/
+env/
+
+# ── Generated output (reproducible via pipeline) ───────────
+llvm_explorer/output/
+evaluation_output/
+
+# ── IDE / editor ───────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ── OS ─────────────────────────────────────────────────────
+*.log
